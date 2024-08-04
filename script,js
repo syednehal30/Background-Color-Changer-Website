@@ -1,0 +1,19 @@
+// Array of colors for the background
+const colors = [
+    '#FF5733', // Red-orange
+    '#33FF57', // Green
+    '#5733FF', // Blue
+    '#FFC300', // Yellow
+    '#C70039', // Dark red
+    '#900C3F', // Dark pink
+    '#DAF7A6', // Light green
+    '#581845', // Dark purple
+];
+
+// Function to change the background color
+function changeBackgroundColor() {
+    // Select a random color from the colors array
+    const randomColor = colors[Math.floor(Math.random() * colors.length)];
+    // Apply the selected color as the background color of the body
+    document.body.style.backgroundColor = randomColor;
+}
