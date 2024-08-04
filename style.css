@@ -1,0 +1,51 @@
+/* Resetting margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styles for the body */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+    transition: background-color 0.5s ease;
+}
+
+/* Styles for the header */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Styles for the subheader */
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #666;
+    text-align: center;
+}
+
+/* Styles for the button */
+button {
+    padding: 15px 30px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #555;
+}
